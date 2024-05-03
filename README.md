@@ -118,11 +118,12 @@ Espero que este guia seja útil!
 
 Para chamar o arquivo Python responsável por retirar dados do MetaTrader5 e manipulá-los com Pandas, siga os passos abaixo:
 
-1. Abra o terminal no seu sistema operacional (macOS ou Linux).
 
-2. Navegue até o diretório onde o arquivo Python está localizado. Por exemplo, se o arquivo estiver na pasta de Downloads, você pode navegar até lá usando o comando `cd Downloads`.
-
-3. Após navegar até o diretório correto, você pode chamar o arquivo Python usando o comando:
+1. você pode chamar o arquivo Python usando o comando:
 
    ```bash
    ! /opt/homebrew/bin/wine python Retira_dados_mt5.py
+   ```
+   ou no caso de náo estar ma mesma pasta:
+      ```bash
+   ! /opt/homebrew/bin/wine python caminho/Retira_dados_mt5.py
