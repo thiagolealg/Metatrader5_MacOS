@@ -125,4 +125,4 @@ Para chamar o arquivo Python responsável por retirar dados do MetaTrader5 e man
 3. Após navegar até o diretório correto, você pode chamar o arquivo Python usando o comando:
 
    ```bash
-   /opt/homebrew/bin/wine python Retira_dados_mt5.py
+   ! /opt/homebrew/bin/wine python Retira_dados_mt5.py
